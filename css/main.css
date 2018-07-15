@@ -1,0 +1,199 @@
+body {
+	/*size: a4;*/
+	margin: 0px;
+	height: 27.9cm;
+	width: 21cm;
+}
+
+@media print {
+	@page {
+		margin: 0;
+	}
+	body {
+		-webkit-print-color-adjust: exact;
+	}
+	.left, .experience-header, .interests-header {
+		background-color: #EEEEEE !important;
+	}
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.gray-bg {
+    background-color: #eeeeee
+}
+
+.left {
+	height: 100%;
+	width: 42%;
+}
+
+.right {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: 400;
+	color: #727272;
+	height: 100%;
+	width: 53%;
+	margin-left: 32px;
+	padding-top: 48px;
+}
+
+.name {
+	color: #727272;
+	font-size: 32px;
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: 400;
+	padding-top: 32px;
+	text-align: center;
+}
+
+.firstname, .lastname {
+	font-weight: 400;
+}
+
+.designation {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: 400;
+	font-size: 16px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.profile, .education {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: 400;
+	margin-left: 32px;
+	margin-right: 32px;
+	text-align: center;
+}
+
+.profile-header, .education-header {
+	font-size: 24px;
+	padding-top: 24px;
+	padding-bottom: 4px;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: #727272;
+	border-bottom-width: 1px;
+}
+
+.profile-content {
+	text-align: justify;
+	padding-top: 8px;
+}
+
+.contact-info {
+	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+	font-weight: 400;
+	margin-left: 32px;
+	margin-right: 32px;
+	padding-top: 18px;
+	text-align: center;
+}
+
+.glyphicon {
+	font-size: 12px;
+	float: left;
+	line-height: inherit !important;
+	margin-left: 16px !important;
+}
+
+.border-bottom-gray {
+	border-bottom: solid;
+	border-bottom-color: #727272;
+	border-bottom-width: 1px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.education-content {
+	text-align: center;
+	padding-top: 8px;	
+}
+
+.degree {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.experience-header, .interests-header {
+	background-color: #EEEEEE;
+	font-size: 24px;
+	height: 32px;
+	line-height: 34px;
+	padding-left: 8px;
+}
+
+.miscellaneous-header {
+	font-size: 24px;
+	padding-top: 8px;
+	padding-bottom: 4px;
+	text-align: center;
+	border-bottom: solid;
+	border-bottom-color: #727272;
+	border-bottom-width: 1px;
+}
+
+.hr {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.job {
+	padding-bottom: 32px;
+}
+
+.job-position {
+	font-size: 16px;
+}
+
+.job-content {
+	padding-left: 8px;
+}
+
+.interests-content {
+	padding-left: 8px;
+}
+
+.job-term {
+	padding-left: 8px;
+    border-left: solid 1px #727272;
+}
+
+.job-company-term {
+	padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.job-description {
+	text-align: justify;
+}
+
+.interests {
+	padding-top: 16px;
+}
+
+.interests-row {
+	width: 100%;
+	padding-bottom: 16px;
+}
+
+.interests-left, .interests-right {
+	width: 100px;
+}
+
+.interests-mid {
+	width: 100px;
+	margin: 0 auto;
+}
+
+.paper-publications-content {
+	padding-left: 8px;
+	padding-bottom: 16px;
+}
