@@ -41,7 +41,20 @@ body {
 	height: 100%;
 	width: 53%;
 	margin-left: 32px;
-	padding-top: 48px;
+	padding-top: 32px;
+}
+
+img {
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+.name-image {
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    width: 50%;
 }
 
 .name {
@@ -49,7 +62,7 @@ body {
 	font-size: 32px;
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: 400;
-	padding-top: 32px;
+	padding-top: 28px;
 	text-align: center;
 }
 
@@ -60,8 +73,8 @@ body {
 .designation {
 	font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 	font-weight: 400;
-	font-size: 16px;
-	padding-top: 10px;
+	font-size: 20px;
+	padding-top: 16px;
 	text-align: center;
 }
 
@@ -75,8 +88,8 @@ body {
 
 .profile-header, .education-header {
 	font-size: 24px;
-	padding-top: 24px;
-	padding-bottom: 4px;
+	padding-top: 30px;
+	padding-bottom: 8px;
 	text-align: center;
 	border-bottom: solid;
 	border-bottom-color: #727272;
@@ -85,7 +98,7 @@ body {
 
 .profile-content {
 	text-align: justify;
-	padding-top: 8px;
+	padding-top: 16px;
 }
 
 .contact-info {
@@ -93,7 +106,7 @@ body {
 	font-weight: 400;
 	margin-left: 32px;
 	margin-right: 32px;
-	padding-top: 18px;
+	padding-top: 28px;
 	text-align: center;
 }
 
@@ -108,18 +121,39 @@ body {
 	border-bottom: solid;
 	border-bottom-color: #727272;
 	border-bottom-width: 1px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .education-content {
 	text-align: center;
-	padding-top: 8px;	
+	padding-top: 8px;
+}
+
+.self-projects {
+	margin-bottom: 8px;
 }
 
 .degree {
-	padding-top: 8px;
-	padding-bottom: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+.degree-name {
+	overflow: hidden;
+	font-size: 14px;
+}
+
+.degree-college {
+	font-size: 15px;
+}
+
+.degree-score-tenure {
+	overflow: hidden;
+}
+
+.experience {
+	margin-top: 32px;
 }
 
 .experience-header, .interests-header {
@@ -143,6 +177,7 @@ body {
 .hr {
 	margin-top: 8px;
 	margin-bottom: 8px;
+	border-color: #727272;
 }
 
 .job {
@@ -151,6 +186,13 @@ body {
 
 .job-position {
 	font-size: 16px;
+	margin-top: 16px;
+}
+
+.job-team-name {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 16px;
 }
 
 .job-content {
@@ -166,9 +208,12 @@ body {
     border-left: solid 1px #727272;
 }
 
+.job-company {
+	font-size: 18px;
+}
+
 .job-company-term {
 	padding-top: 8px;
-    padding-bottom: 8px;
 }
 
 .job-description {
@@ -193,7 +238,20 @@ body {
 	margin: 0 auto;
 }
 
+.paper-publications {
+	/*margin-top: 32px;*/
+}
+
 .paper-publications-content {
 	padding-left: 8px;
 	padding-bottom: 16px;
+}
+
+
+/* Hacks*/
+.interests-content-1 {
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 14px;
 }
